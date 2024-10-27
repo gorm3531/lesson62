@@ -94,26 +94,4 @@ if __name__ == "__main__":
 
 
 
-""" kb = InlineKeyboardMarkup()
-    but = InlineKeyboardButton(text='Информация', callback_data='info')
-    kb.add(but)
 
-    start_menu = ReplyKeyboardMarkup(
-        keyboard=[
-            [KeyboardButton(text='shop')],
-            [KeyboardButton(text='donat'),
-             KeyboardButton(text=' info')
-             ]
-        ], resize_keyboard=True
-    )
-
-
-    @dp.message_handler(commands=['start'])
-    async def started(message):
-        await message.answer('Рады Вас видеть', reply_markup=start_menu)
-
-
-    @dp.callback_query_handler(text='info')
-    async def inform(call):
-        await call.message.answer('Информация о боте')
-        await call.answer()"""

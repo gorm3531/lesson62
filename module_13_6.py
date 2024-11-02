@@ -78,7 +78,7 @@ async def send_calories(message, state):
 
 @dp.message_handler()
 async def start(message: types.Message):
-    await message.answer('Привет! Хочешь узнать свою норму калорий? Тогда напиши Calories')
+    await message.answer('Привет! Хочешь узнать свою норму калорий? Тогда напиши /start')
 
 
 
